@@ -34,9 +34,11 @@ This project is one of the required projects for the **Responsive Web Design Cer
 ---
 
 ## 📂 Project Structure
-─Responsive Web Design Certification
- └───Survey Form
-    └───Survey-Form.html
-    └───style.css
-    └───README.md
-    
+
+```
+Responsive Web Design Certification/
+└── Survey Form/
+    ├── Survey-Form.html
+    ├── style.css
+    └── README.md
+```
