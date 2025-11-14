@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey-form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+        <div class="survey-header">
+            <h1 id="title">Experience Using E-Learning Platforms</h1>
+            <p id="description">Share your feedback on various e-learning platforms to help us improve online education.</p>            
+        </div>
+        <form id="survey-form">
+            <label for="name" id="name-label">Enter your Name :</label>
+            <input type="text" id="name" placeholder="Ali" required>
+    
+            <hr>
+            <label for="email" id="email-label" >Enter your Email :</label>
+            <input type="email" id="email" placeholder="Example@example.com" required>
+            <hr>
+            <label for="number" id="number-label" >Age :</label>
+            <input type="number" id="number" min="13" max="120" placeholder="20" required>
+            <hr>
+            <label for="dropdown" id="Gender-label">Gender :</label>
+            <select id="dropdown" >
+                <option value="">--Select your gender--</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+              </select>
+              <hr>
+              <div class="checkbox">
+                <p>What section do you want?</p>
+                <input type="checkbox" name="front-end" value="S1">
+                <label for="front-end">Front-end</label>
+                <br>
+                <input type="checkbox" value="S2">
+                <label for="back-end">Back-end</label>
+                <br>
+                <input type="checkbox" value="S3">
+                <label for="cyber-​​security">Cyber ​​Security</label>
+              </div>
+        
+              <hr>
+              <div class="checkbox">
+              <p>Please select your favorite Web language:</p>
+              <input type="radio" name="language" id="html" value="L1">
+              <label for="html">Html</label>
+              <br>
+              <input type="radio" name="language" id="css" value="L2">
+              <label for="css">Css</label>
+              <br>
+              <input type="radio" name="language" id="js" value="L3">
+              <label for="javaScript">javaScript</label>
+              </div>
+              <hr>
+              <div id="textarea">
+                <p>Do you have comments?</p>
+                <textarea name="comment" id="comment" rows="5" cols="22" placeholder="Write your comments here..."></textarea>
+              </div>
+              <hr>
+              <div id="button">
+              <input type="submit" id="submit" value="Submit">
+              </div>
+        </form>
+    
+</body>
+</html>
