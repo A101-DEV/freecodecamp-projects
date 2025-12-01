@@ -7,7 +7,7 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    background-color: antiquewhite;
+    background-color: #ffffff;
     display: flex;
 }
 html, body {
@@ -15,7 +15,7 @@ html, body {
 }
 
 #navbar {
-    background-color: aquamarine;
+    background-color:#0D1117 ;
     width: 300px;
     height: 100vh;
     line-height: 30px;
@@ -29,8 +29,11 @@ html, body {
     border-bottom: 2px solid;
     padding: 10px;
 }
-
+#navbar header{
+    color:#ffffff;
+}
 header {
+    color:#000000;
     font-size: large;
     text-align: center;
     margin-bottom: 7px;
@@ -41,7 +44,7 @@ header {
 .nav-link {
     font-size: large;
     text-decoration: none;
-    color: black;
+    color: #58A6FF;
     margin: 10px;
     font-size: 18px;
     font-weight: 400;
@@ -75,6 +78,7 @@ hr{
     text-align: left;
     margin: 9px;
     font-weight: 600;
+    color: #000000;
 
 }
 
@@ -93,7 +97,7 @@ hr{
 }
 
 .main-section pre {
-    background-color: black;
+    background-color:#0D1117;
     color: aliceblue;
     border-radius: 30px;
     margin: 20px;
