@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Documentation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Main navigation bar -->
+    <nav id="navbar">
+        <header>Python Documentation</header> <!-- Navigation bar title -->
+        <ul>
+            <!-- Navigation links -->
+            <li><a class="nav-link" href="#Getting_Started_With_Python">Getting Started With Python</a></li>
+            <li><a class="nav-link" href="#Python_Structure">Python Structure</a></li>
+            <li><a class="nav-link" href="#Adding_Content">Adding Content</a></li>
+            <li><a class="nav-link" href="#Functions">Functions</a></li>
+            <li><a class="nav-link" href="#Objects_and_Classes">Objects and Classes</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content of the page -->
+    <main id="main-doc">
+        <!-- Section for getting started with Python -->
+        <section class="main-section" id="Getting_Started_With_Python">
+            <header>Getting Started With Python</header> <!-- Section title -->
+            <p>Steps in getting started with Python:</p>
+            <ol>
+                <li>Download and install Python</li>
+                <li>Choose an Integrated Development Environment (IDE) like PyCharm or VS Code</li>
+                <li>Create a new project and write your first "Hello World" program</li>
+                <li>Run the program and check the output</li>
+            </ol>
+        </section>
+        <hr>
+        <!-- Section for Python structure -->
+        <section class="main-section" id="Python_Structure">
+            <header>Python Structure</header> <!-- Section title -->
+            <p>A Python program has a certain structure with functions and methods. Here is a simple example:</p>
+            <!-- example -->
+            <pre>
+            <code>
+            # This is a comment in Python
+            def main():
+                print("Welcome to Python")
+
+            if __name__ == "__main__":
+                main()
+            </code>
+            </pre>
+            <p>The above example shows the structure of a simple Python program with a main function and printing text.
+            </p>
+        </section>
+        <hr>
+        <!-- Section for adding content in Python -->
+        <section class="main-section" id="Adding_Content">
+            <header>Adding Content</header> <!-- Section title -->
+            <p>In Python, content can be added using various functions and data. Here are some examples:</p>
+            <!-- example -->
+            <pre>
+            <code>
+            # Adding text and numbers to variables
+            text = "This is a text"
+            number = 123
+            # Printing the content
+            print(text)
+            print(number)
+            </code>
+            </pre>
+            <p>The above example shows how to add text and numbers to variables and print the content.</p>
+        </section>
+        <hr>
+        <!-- Section for functions in Python -->
+        <section class="main-section" id="Functions">
+            <header>Functions</header> <!-- Section title -->
+            <p>Functions can be easily defined and used in Python. Here is an example:</p>
+            <!-- example -->
+            <pre>
+            <code>
+            # Defining a function to add two numbers
+            def add(a, b):
+                return a + b
+
+            # Calling the function and printing the result
+            result = add(10, 20)
+            print("The sum is:", result)
+            </code>
+            </pre>
+            <p>The above example shows how to define a function that takes two parameters,
+                returns their sum, and how to call the function to display the result.</p>
+        </section>
+        <hr>
+        <!-- Section for Objects and Classes in Python -->
+        <section class="main-section" id="Objects_and_Classes">
+            <header>Objects and Classes</header> <!-- Section title -->
+            <p>In Python, everything is an object, and classes are used to create new objects.</p>
+            <!-- example -->
+            <pre>
+                 <code>
+                     # Defining a simple class
+                    class Dog:
+                        def __init__(self, name):
+                            self.name = name
+
+                        def bark(self):
+                            return f"{self.name} says woof!"
+
+                    # Creating an object from the class
+                    my_dog = Dog("Buddy")
+                    print(my_dog.bark())
+             </code>
+         </pre>
+            <pre>
+              <code>
+              # Defining a simple class for Car
+              class Car:
+                  def __init__(self, brand, model):
+                      self.brand = brand
+                      self.model = model
+            
+                  def drive(self):
+                      return f"The {self.brand} {self.model} is driving!"
+            
+              # Creating objects from the Car class
+              car1 = Car("Toyota", "Corolla")
+              car2 = Car("Tesla", "Model 3")
+            
+              print(car1.drive())
+              print(car2.drive())
+              </code>
+            </pre>
+            <p>The above example shows how to define a class, create an object, and call its method.</p>
+            <p>Python makes it easy to model real-world entities using classes and objects.</p>
+            <ul>
+                <li>Classes define the blueprint of objects</li>
+                <li>Objects are instances of classes</li>
+                <li>Methods are functions defined inside classes</li>
+            </ul>
+        </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
