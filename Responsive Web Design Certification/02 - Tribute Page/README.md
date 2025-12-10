@@ -10,7 +10,7 @@ This project is one of the required projects for the **Responsive Web Design Cer
 ---
 
 ## 🌐 Live Demo
-👉 Visit the website: [Tribute Page](https://a101-dev.github.io/freecodecamp-projects/Responsive%20Web%20Design%20Certification/Tribute%20Page/Tribute-Page.html)
+👉 Visit the website: [Tribute Page](https://a101-dev.github.io/freecodecamp-projects/Responsive%20Web%20Design%20Certification/02%20-%20Tribute%20Page/Tribute-Page.html)
 
 ---
 
