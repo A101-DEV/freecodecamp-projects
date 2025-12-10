@@ -10,7 +10,8 @@ This project is one of the required projects for the **Responsive Web Design Cer
 ---
 
 ## 🌐 Live Demo
-👉 Visit the website: [Survey Form](https://a101-dev.github.io/freecodecamp-projects/Responsive%20Web%20Design%20Certification/Survey%20Form/Survey-Form.html)
+👉 Visit the website: [Survey Form](https://a101-dev.github.io/freecodecamp-projects/Responsive%20Web%20Design%20Certification/01%20-%20Survey%20Form/Survey-Form.html)
+
 
 ---
 
