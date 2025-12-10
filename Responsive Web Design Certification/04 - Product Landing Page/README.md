@@ -10,7 +10,7 @@ This project is one of the required projects for the **Responsive Web Design Cer
 ---
 
 ## 🌐 Live Demo
-👉 Visit the website: [Product Landing Page](https://a101-dev.github.io/freecodecamp-projects/Responsive%20Web%20Design%20Certification/Product%20Landing%20Page/Product-Landing-Page.html)
+👉 Visit the website: [Product Landing Page](https://a101-dev.github.io/freecodecamp-projects/Responsive%20Web%20Design%20Certification/04%20-%20Product%20Landing%20Page/Product-Landing-Page.html)
 
 ---
 
