@@ -10,7 +10,7 @@ This project is one of the required projects for the **Responsive Web Design Cer
 ---
 
 ## 🌐 Live Demo
-👉 Visit the website: [Technical Documentation Page](https://a101-dev.github.io/freecodecamp-projects/Responsive%20Web%20Design%20Certification/Technical%20Documentation%20Page/Python-Documentation-Page.html)
+👉 Visit the website: [Technical Documentation Page](https://a101-dev.github.io/freecodecamp-projects/Responsive%20Web%20Design%20Certification/03%20-%20Technical%20Documentation%20Page/Python-Documentation-Page.html)
 
 ---
 
